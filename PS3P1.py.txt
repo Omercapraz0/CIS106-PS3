@@ -1,0 +1,10 @@
+ PS3P1=  Stock Investment
+
+symbol = input("Enter stock symbol: ") 
+shares = int(input("Enter number of shares: "))
+price = float(input("Enter price per share: "))
+
+total = shares x price
+
+print("Symbol:", symbol)
+print("Total: $", round(total, 2))
