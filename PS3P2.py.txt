@@ -1,0 +1,8 @@
+lastname = input("Enter your last name: ")
+midterm = float(input("Enter your midterm score: "))
+final = float(input("Enter final score: "))
+
+total = midterm + final
+
+print("Student:", lastname)
+print("Total Score:", total)
