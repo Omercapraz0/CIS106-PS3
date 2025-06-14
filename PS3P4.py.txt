@@ -1,0 +1,13 @@
+PS3P4 
+make = input("Make ")
+model = input("Model ")
+price = float(input("Price "))
+rate = float(input("Discount amount : "))
+
+discount = price * rate
+final = price - discount
+
+print("Make:", make)
+print("Model", model)
+print("Discount MONEY ", round(discount, 2))
+print("Final money ", round(final, 2))
