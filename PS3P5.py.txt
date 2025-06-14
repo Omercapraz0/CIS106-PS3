@@ -1,0 +1,4 @@
+hourly_rate = float(input("Enter  your hourly money: "))
+hours_worked = float(input("Enter hours work: "))
+daily_pay = hourly_rate * hours_worked
+print("Daily money: $", round(daily_pay, 2))
